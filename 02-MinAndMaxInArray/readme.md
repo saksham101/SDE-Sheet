@@ -2,6 +2,7 @@
 
 ## Method 1
 <h3> Linear search </h3>
+
 ```
 #include<bits/stdc++.h>
 using namespace std;
@@ -31,6 +32,7 @@ int main()
     return 0;
 }
 ```
+
 complexity O(n)
 
 ## Method 2
@@ -82,4 +84,5 @@ int main()
     return 0;
 }
 ```
+
 complexity O(n)
