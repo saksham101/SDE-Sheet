@@ -3,7 +3,7 @@
 ## Method 1
 <h3> Linear search </h3>
 
-```
+``` cpp
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -38,7 +38,7 @@ complexity O(n)
 ## Method 2
 <h3> pair comparison </h3>
 
-```
+``` cpp
 #include<bits/stdc++.h>
 using namespace std;
 int Max, Min;
