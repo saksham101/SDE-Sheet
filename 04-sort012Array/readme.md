@@ -14,10 +14,8 @@ class Solution
         int start = 0, mid = 0, end = n-1;
         while(mid <= end) {
             if(arr[mid] == 0) {
-
                 swap(arr[start], arr[mid]);
-                mid++;
-                start ++;
+                mid++; tart++;
             }
             else if(arr[mid] == 1) {
                 mid++;
@@ -31,7 +29,6 @@ class Solution
 };
 
 int main() {
-
     int t;
     cin >> t;
     while(t--){
